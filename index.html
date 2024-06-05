@@ -7,6 +7,82 @@
     <link rel="stylesheet" href="style.css">
     <link href="C:\Users\HP\Desktop\Cglia Folder\website-1\favicon.png" rel="icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .content-box {
+            border: 2px solid blue;
+            padding: 20px;
+            margin: 20px;
+            background-color: black; /* This ensures the box background matches the body background */
+            color: blue;
+        }
+
+        #detailsButton{
+            display: inline-block;
+            padding: 10px 20px;
+            color: blue;
+            background-color: white; /* Adjust as needed */
+            text-decoration: none;
+            border: 2px solid blue;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        }
+
+        #detailsButton:hover {
+            background-color: blue;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        #detailsButton:active {
+            transform: scale(1);
+        }
+
+        .form-container {
+            background-color: #fff;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        .form-container h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+        .form-container label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+        .form-container input, 
+        .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            color: #333;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .form-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <!-- <p>Navbar section</p> -->
@@ -30,8 +106,10 @@
     <section id="home" class="parallax">
         <div class="container">
             <header>
-                <h1>Welcome to CGLIA Solutions LLP</h1>
-                <p>Innovative Solutions for a Digital World. 1500 Person-years’ experience in building world class software products and successful delivering to US Markets. Looking for proven IT Professionals, with exceptional skills in the areas of: Java/J2EE Programming, Java based Solution Architecture, DB Programming, UI/UX, and Technical Project Leadership. One of the very few World Class Software Product Companies in India. Produced many World Class Software Professionals and Leaders.</p>
+                <div class="content-box">
+                <h1 style="color: rgb(8, 224, 33);">Welcome to CGLIA Solutions LLP</h1>
+                <p style="color: rgb(8, 224, 33);">Innovative Solutions for a Digital World. 1500 Person-years’ experience in building world class software products and successful delivering to US Markets. Looking for proven IT Professionals, with exceptional skills in the areas of: Java/J2EE Programming, Java based Solution Architecture, DB Programming, UI/UX, and Technical Project Leadership. One of the very few World Class Software Product Companies in India. Produced many World Class Software Professionals and Leaders.</p>
+                </div>
                 <a href="#services" class="cta-button">Explore Our Services</a>
             </header>
         </div>
@@ -203,7 +281,7 @@
             <br>
             <br>
             <h2>Contact Us</h2>
-            <p>Feel free to reach out to us for any inquiries or further information about our services.</p>
+            <p style="text-align: center;"><b>Feel free to reach out to us for any inquiries or further information about our services.</b></p>
             <form>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -255,21 +333,21 @@
           <p>CGLIA, is a software development company that has strong expertise in the development of products related to Enterprise resource planning, Health care and life sciences domain.</p>
          </div>-->
          <ul class="box">
-          <li class="link_name">Follow Us</li>
+          <li class="link_name" style="color: aqua;">Follow Us</li>
           <li><a href="#">Facebook</a></li>
           <li><a href="#">Twitter</a></li>
           <li><a href="#">Instagarm</a></li>
           <li><a href="#">LinkedIn </a></li>
         </ul>
         <ul class="box">
-          <li class="link_name">Quick Links</li>
+          <li class="link_name" style="color: aqua;">Quick Links</li>
           <li><a href="#home">Home</a></li>
           <li><a href="#contact">Contact us</a></li>
           <li><a href="#about">About us</a></li>
           <li><a href="#services">Services</a></li>
         </ul>
         <ul class="box">
-          <li class="link_name">Services</li>
+          <li class="link_name" style="color: aqua;">Services</li>
           <li><a href="#">Software Development</a></li>
           <li><a href="#">IT Consulting</a></li>
           <li><a href="#">Architect</a></li>
@@ -277,7 +355,7 @@
         </ul>
   
         <ul class="box" id="footer-contact">
-          <li class="link_name"> <span  >Contact Us</span></li>
+          <li class="link_name"> <span  style="color: aqua;">Contact Us</span></li>
           <li><i class="fas fa-envelope"></i> info@cglia.com</li>
           <li><i class="fas fa-phone"></i> +91-40-23545853</li>
           <li><i class="fas fa-map-marker-alt"></i> PLOT NO-520, ROAD NO-27 & 28,
