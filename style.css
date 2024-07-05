@@ -13,7 +13,7 @@ body {
 
 /* Navbar Styles */
 nav {
-    background: #333;
+    background:#14c1e3;
     color: #fff;
     padding: 1em 0;
     position: fixed;
@@ -52,7 +52,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f4c20d;
+    color: #4991b6;
 }
 
 /* Header Styles */
@@ -77,7 +77,7 @@ header .cta-button {
     display: inline-block;
     padding: 10px 20px;
     font-size: 1em;
-    color: #333;
+    color: #14c1e3;
     background: #f4c20d;
     text-decoration: none;
     transition: background 0.3s, color 0.3s;
@@ -230,7 +230,7 @@ section#contact form input, section#contact form textarea {
 section#contact form button {
     padding: 10px 20px;
     font-size: 1em;
-    background: #333;
+    background: skyblue;
     color: #fff;
     border: none;
     border-radius: 5px;
